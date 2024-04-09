@@ -37,7 +37,10 @@
 		- Pushed local repo updates to remote repo 'origin'
 		- Updated:
 			~ README.txt					[dir/]
-				
+	**VERSION 0.2**
+		- Fixed index.html from '1' merged into '0'
+		- Updated:
+			~ README.txt					[dir/]
 **BRANCH 1**
 	**VERSION 1.0**
 		- Updated:
