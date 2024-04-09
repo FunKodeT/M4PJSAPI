@@ -43,3 +43,8 @@
 		- Updated:
 			~ index.html					[dir/]
 			~ README.txt					[dir/]
+	**VERSION 1.2**
+		- Comparisons between my code and later provided code shows a typo in the URL; Corrections were made, full functionality is now availabe
+		- Updated:
+			~ index.html					[dir/]
+			~ README.txt					[dir/]
