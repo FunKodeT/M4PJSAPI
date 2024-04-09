@@ -38,3 +38,8 @@
 		- Updated:
 			~ index.html					[dir/]
 			~ README.txt					[dir/]
+	**VERSION 1.1**
+		- Modified index.html to be the same as assignment provided code for troubleshooting purposes
+		- Updated:
+			~ index.html					[dir/]
+			~ README.txt					[dir/]
