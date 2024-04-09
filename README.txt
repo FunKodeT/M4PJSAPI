@@ -32,3 +32,9 @@
 			~ README.txt					[dir/]
 			~ origin
 				Remote @ https://www.github.com/FunKodeT/M4PJSAPI.git/
+				
+**BRANCH 1**
+	**VERSION 1.0**
+		- Updated:
+			~ index.html					[dir/]
+			~ README.txt					[dir/]
