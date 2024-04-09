@@ -62,3 +62,10 @@
 			~ style.css						[dir/]
 				^0.0	=	2.0^
 			~ README.txt					[dir/]
+	**VERSION 2.1**
+		- Modified script.js comments to be more readable
+		- Modified index.html to have a script call instead of script inside of the HTML
+		- Updated:
+			~ index.html					[dir/]
+			~ script.js						[dir/]
+			~ README.txt					[dir/]
