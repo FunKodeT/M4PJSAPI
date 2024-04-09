@@ -43,3 +43,13 @@
 		- Updated:
 			~ index.html					[dir/]
 			~ README.txt					[dir/]
+	**VERSION 1.1**
+		- Modified index.html to be the same as assignment provided code for troubleshooting purposes
+		- Updated:
+			~ index.html					[dir/]
+			~ README.txt					[dir/]
+	**VERSION 1.2**
+		- Comparisons between my code and later provided code shows a typo in the URL; Corrections were made, full functionality is now availabe
+		- Updated:
+			~ index.html					[dir/]
+			~ README.txt					[dir/]

@@ -8,8 +8,10 @@
 <body>
     <!-- Inspect this document and check the console tab to see if your data is there -->
     <script>
-        const testAPI = 'https://iskarr.github.io/audstindonovan.github.io/api/business.json';
-        fetch(testAPI).then((Response) => response.json()).then((jsObject) => {
+        const URL = "https://iskarr.github.io/austindonovan.github.io/api/business.json";
+        fetch(URL)
+        .then((response) => response.json())
+        .then((jsObject) => {
             console.log(jsObject);
         });
     </script>
