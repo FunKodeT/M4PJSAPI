@@ -1,21 +1,19 @@
-*****VERSION HISTORY*****
-
-
- _______________________
-|***********************|
-|********LEGEND*********|
-|***********************|
-|						|
-|	**	- OUTLINE		|
-|	~  	- SECTION		|
-|	()	- NOTE			|
-|	[]	- LOCATION		|
-|	@	- LINK			|
-|	=	- NEW LOCATION	|
-|	^^	- FILE VERSION	|
-|	&+	- AND CONTENTS	|
-|	+	- CONTENTS		|
-|_______________________|
+*******VERSION HISTORY*******
+ ___________________________
+|***************************|
+|**********LEGEND***********|
+|***************************|
+|							|
+|	**	-	OUTLINE			|
+|	~  	-	SECTION			|
+|	()	-	NOTE			|
+|	[]	-	LOCATION		|
+|	@	-	LINK			|
+|	=	-	NEW LOCATION	|
+|	^^	-	FILE VERSION	|
+|	&+	-	AND CONTENTS	|
+|	+	-	CONTENTS		|
+|___________________________|
 
 **BRANCH 0**
 	**VERSION 0.0**
@@ -42,4 +40,25 @@
 	**VERSION 1.0**
 		- Updated:
 			~ index.html					[dir/]
+				^0.0	=	1.0^
+			~ README.txt					[dir/]
+
+**BRANCH 2**
+	**VERSION 2.0**
+		- Accessed provided URL for API directly, copied API data into business.json file locally due to internet restrictions
+		- Added:
+			~ 2
+				(Branch)
+			~ script.js						[dir/]
+				^0.0^
+			~ style.css						[dir/]
+				^0.0^
+			~ business.json					[dir/]
+		- Updated:
+			~ index.html					[dir/]
+				^1.0	=	2.0^
+			~ script.js						[dir/]
+				^0.0	=	2.0^
+			~ style.css						[dir/]
+				^0.0	=	2.0^
 			~ README.txt					[dir/]
