@@ -17,6 +17,8 @@ fetch(URL)
 .then((response) => response.json())
 .then((jsObject) => {
 let business = jsObject.business;
+
+
 for (let i = 0; i < business.length; i++) {
 // console.log(business[i].name);
 

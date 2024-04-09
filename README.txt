@@ -67,5 +67,13 @@
 		- Modified index.html to have a script call instead of script inside of the HTML
 		- Updated:
 			~ index.html					[dir/]
+				^2.0	=	2.1^
 			~ script.js						[dir/]
+				^2.0	=	2.1^
 			~ README.txt					[dir/]
+	**VERSION 2.2**
+		- 'business.json' no longer necessary for assignment completion, and has been removed
+		- Updated:
+			~ README.txt					[dir/]
+		- Removed:
+			~ business.json					[dir/]
