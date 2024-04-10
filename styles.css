@@ -1,0 +1,97 @@
+/* #################################################################################################### */
+/* **************************************************************************************************** */
+/*                                          GENERAL                                                     */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #fffddc;
+}
+/* **************************************************************************************************** */
+/*                                      BASIC CARD STYLING                                              */
+ul{
+    list-style-type: none;
+}
+.cards{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 2vh;
+    padding: 5vh;
+}
+.card{
+    width: 400px;
+    height: 400px;
+    perspective: 800px;
+    border: 4px solid #00ffd591;
+    border-radius: 6px;
+}
+/* **************************************************************************************************** */
+/*                                      CARD CONTAINER STYLING                                          */
+.cardContainer{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+.card:hover .cardContainer{
+    transform: rotateY(180deg);
+}
+/* **************************************************************************************************** */
+/*                                      CARD FRONT AND BACK STYLING                                     */
+.cardFront, .cardBack{
+    position: absolute;
+    background-color: #ffbbf9;
+    color: #333;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #00ffd591;
+    backface-visibility: hidden;
+}
+/* **************************************************************************************************** */
+/*                                          CARD FRONT STYLING                                          */
+.cardFront h2{
+    padding: 5px;
+    text-align: center;
+    background: #ff82f5;
+    border: 2px solid #00ffd591;
+    text-shadow: 2px 2px whitesmoke;
+}
+.cardFront ul{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    background: #ff82f5;
+    border: 2px solid #00ffd591;
+}
+/* **************************************************************************************************** */
+/*                                          CARD BACK STYLING                                           */
+.cardBack{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffbbf9;
+    color: #333;
+    transform: rotateY(180deg);
+}
+.cardBack p{
+    font-size: 40px;
+    text-align: center;
+    border: 15px dotted navy;
+}
+/* **************************************************************************************************** */
+/*                                              IMAGE STYLING                                           */
+img{
+    display: block;
+    object-fit: contain;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* #################################################################################################### */
